@@ -127,24 +127,25 @@ ReDoc: http://127.0.0.1:8000/redoc
 **Request (GET):**  
 **Respuesta:**  
 ```json
-{
+    {
         "id": 1,
         "name": "felipe",
         "party": "Unidos",
         "votes": 3
     }
-
+    {
         "id": 3,
         "name": "fernando",
         "party": "Alianza",
         "votes": 10
     }
-
+    {
         "id": 4,
         "name": "edgar",
         "party": "hermandad",
         "votes": 0
     }
+
 ````
 **Endpoint:** `http://127.0.0.1:8000/candidates/4`   
 **Descripción:** Elimina un candidato indicando su ID.
